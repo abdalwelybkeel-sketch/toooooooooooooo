@@ -1,5 +1,5 @@
 name: untitled23
-description: A new Flutter project.
+description: تطبيق تحليل أمراض الجلد باستخدام الذكاء الاصطناعي
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -30,22 +30,54 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  
+  # UI & Navigation
+  get: 
+  flutter_screenutil: 
+  google_fonts: 
+  flutter_svg: 
+  lottie: 
+  shimmer: 
+  
+  # Database
+  hive: 
+  hive_flutter: 
+  path_provider: 
+  
+  # Image & Camera
+  image_picker: 
+  image: 
+  cached_network_image: 
+  photo_view: 
+  
+  # HTTP & API
+  dio: 
+  connectivity_plus: 
+  
+  # Utils
+  intl: 
+  uuid: 
+  share_plus: 
+  url_launcher: 
+  permission_handler: 
+  
+  # Charts & Analytics
+  fl_chart: 
+  
+  # PyTorch Integration
+  pytorch_lite: 
+  
+  # File handling
+  file_picker: 
+  path: 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  hive_generator: 
+  build_runner:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

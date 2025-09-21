@@ -1,4 +1,4 @@
-# Miscellaneous
+# Ignore miscellaneous files
 *.class
 *.log
 *.pyc
@@ -6,22 +6,18 @@
 .DS_Store
 .atom/
 .buildlog/
-.history
+.history/
 .svn/
 migrate_working_dir/
 
-# IntelliJ related
+# IDE files
 *.iml
 *.ipr
 *.iws
 .idea/
+.vscode/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
+# Flutter/Dart files
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
@@ -30,15 +26,15 @@ migrate_working_dir/
 .packages
 .pub-cache/
 .pub/
-/build/
+build/
 
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
+# Android Studio build artifacts
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Ignore everything else by default
+*
+!lib/
+!python/
+!pubspec.yaml
