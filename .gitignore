@@ -1,40 +1,13 @@
-# Ignore miscellaneous files
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history/
-.svn/
-migrate_working_dir/
-
-# IDE files
-*.iml
-*.ipr
-*.iws
-.idea/
-.vscode/
-
-# Flutter/Dart files
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
-build/
-
-# Android Studio build artifacts
-/android/app/debug
-/android/app/profile
-/android/app/release
-
-# Ignore everything else by default
+# Ignore everything
 *
+
+# Except these
 !lib/
 !python/
 !pubspec.yaml
+
+# Ignore common unnecessary files inside those folders
+lib/**/*.log
+lib/**/*.pyc
+python/**/*.log
+python/**/*.pyc
